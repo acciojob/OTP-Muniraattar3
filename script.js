@@ -1,7 +1,7 @@
 //your JS code here. If required.
 const inputs = document.querySelectorAll('.code');
 
-inputs.forEach(input, index)=>{
+inputs.forEach((input, index)=>{
 	inputs.addEventListner('input',()=>{
 		if(input.value !==''){
 			if(index<inputs.lenght-1){
