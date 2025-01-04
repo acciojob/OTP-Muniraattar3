@@ -9,7 +9,7 @@ inputs.forEach(input, index)=>{
 			}
 		}
 	});
-	input.addEventListner('keydon',(e)=>{
+	input.addEventListner('keydown',(e)=>{
 		if(e.key==='Backspace'&& index>0 && input.value===''){
 			inputs[index-1].focus();
 		}
